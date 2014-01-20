@@ -1,0 +1,29 @@
+dupfind
+=======
+
+## DESCRIPTION
+
+This archive contains the distribution App-dupfind.
+
+App::dupfind is a file deduplicator written in Perl as inspired by both
+necessity for such a tool and by the Dallas/Fort Worth Perl Mongers Winter
+2013 hackathon competition.
+
+Install this distribution (see INSTALL file) and run dupfind without arguments
+to see the help message documentation, or visit the page for App::dupfind on
+metacpan.org to read the docs online.
+
+See http://dfw.pm.org for details on the hackathon that gave birth to dupfind.
+
+## AUTHORS
+
+Tommy Butler
+
+## COPYRIGHT
+
+This software is copyright (c) 2014 by Tommy Butler.
+
+## LICENSE
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.

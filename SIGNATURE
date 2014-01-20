@@ -1,0 +1,148 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 76a08172c2a635f36337c548aa80600ef0346159 AUTHORS
+SHA1 296d68425e675d2d4e975910dbe6d0b885f3e5df Build.PL
+SHA1 bb2492d6fbfa8b7d456f2b8986db4533908dc097 COPYING
+SHA1 f4cccbe2480491f614344e15dcf1f7fbe2f884fb Changes
+SHA1 edc537b9eb26d8405a3d437f2ffd8ed2a0610b15 INSTALL
+SHA1 b58bed2bf9814e2a360fd6615d1b3c21210d6269 LICENSE
+SHA1 c275000ee51550563695afc3668fb1c6fc3f51c0 MANIFEST
+SHA1 e1ede676e2dc77273c1afbfaee429a1cb4eadcab MANIFEST.SKIP
+SHA1 4d2c2f51e52da67d8fe694472b7318a7613d12c1 META.json
+SHA1 fefccf983469571bb0338c3f627c0f1e8008af0a META.yml
+SHA1 5dd5b0bfaf2a6bb3a29ab58a91e7ed87bae8ef3b Makefile.PL
+SHA1 2309af8ab49c96a0b4f1136d0b27bf88f5250426 NEWS
+SHA1 f05f74615cc9d48c5f71693bbad1926a4a8266a2 README
+SHA1 757f351a075c3fd60cd309868aeb30f7f9419ea2 TODO
+SHA1 a0dd2a639ae5ba91df9710a91046ab4bac48585a bin/dupfind
+SHA1 3b5058650b93b5c6f824ef5d22eb8b57a1765ea5 dist.ini
+SHA1 68f13969a922e76e6f2aaa86d01141f4ccdf6251 lib/App/dupfind.pm
+SHA1 9dc57efaa2740484414d846369cc83ec86ceb645 lib/App/dupfind/App.pm
+SHA1 83d557c2912e20280a9ee61185013b1435e3920a lib/App/dupfind/Common.pm
+SHA1 aba458ff6450c5255d4b74f75b5dfdd83a29a7a0 lib/App/dupfind/Guts.pm
+SHA1 8e2aeff64020ec583b40fdbb211eab43f972fece lib/App/dupfind/Guts/Algorithms.pm
+SHA1 5ac5bfa4b0349cdc6ab3397c3f934ba45bbe6859 lib/App/dupfind/Threaded.pm
+SHA1 4822a6094e5737dfea414298b69003ddc120a0ef lib/App/dupfind/Threaded/MapReduce.pm
+SHA1 6928e3ae07b3e0a5b9eedbc5bd28e7afe3dbcbfe lib/App/dupfind/Threaded/MapReduce/Digest.pm
+SHA1 e47360943d317c96f872c5592635f339c2167810 lib/App/dupfind/Threaded/MapReduce/Weed.pm
+SHA1 dbcaa5121c36027e411a3d17b205af1a7d4ac6e3 lib/App/dupfind/Threaded/Overrides.pm
+SHA1 9cfe40d67f4e9554b22bffbdf90a5ec6ee48e045 lib/App/dupfind/Threaded/ThreadManagement.pm
+SHA1 e028b5e88c4c0930e254540747704960189b863d t/00-compile.t
+SHA1 b31abae4061cd1021baa7b698a40ce0b9290bf32 t/000-report-versions-tiny.t
+SHA1 c5bcaff25026b2af9aa7214a803d934df6be021e t/001_canuseit.t
+SHA1 cf80aac873f71cb5e4f701a2b8ad00fe4b8e07c2 t/002_isa.t
+SHA1 67d868415524f4221920fc790297f0171a1f340f t/003_can.t
+SHA1 5b254e2750cb76d15475f8bbf2ed78f6c62ea874 t/004_scanfs.t
+SHA1 ba7e41dd7417f67d5b7b77421875eeb5ba282bdd t/005_prune.t
+SHA1 3a8ed34d2b6512ed22940e29af16deecd043a911 t/006_weed.t
+SHA1 06d1ce823f5e78436c6ccf972dd33bb1e43c9454 t/007_digest.t
+SHA1 7efec3ab3599b50600758047070f0850c930588c t/008_output_robot.t
+SHA1 b0a9fb9daec7a01573f84fef22568d9ce1e6f52f t/009_output_human.t
+SHA1 637f499b99b105dd2e307d009ba0a18d69f70df3 t/data/0648bf8a-81ab-11e3-b9be-83c2be072bbb
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/data/0994f6c6-8210-11e3-a603-e756988abf4b
+SHA1 47c6d2cb2e3b7787e396b4aadd256dcf864022c1 t/data/09e5de2a-81ab-11e3-b3f5-23021d351be6
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/data/0ba7506c-8210-11e3-90c7-cff834e8d9fe
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/data/0de7ade0-8210-11e3-ade5-b344fd2d736a
+SHA1 58d6b6c47259412560173de58a6d07fdf7907a87 t/data/24a070dc-81b4-11e3-a340-ff284e21568c
+SHA1 54ce64e5efc3e4d7709dc280c8e7050b783ea87d t/data/2ed61520-81aa-11e3-adda-2f4b39d75303
+SHA1 c28f06101a4119a51d6deb79c4cc515c4060b2c1 t/data/2ed6b70a-81aa-11e3-9bd3-8fda2ac6ede3
+SHA1 5b38c756a8562f01e1bb22b6fd8cd2ee75dfaf5e t/data/2ed7537c-81aa-11e3-9447-d72563320fd4
+SHA1 cd6d40ab405d102b51d2603c4a506dc46e3e0d4f t/data/2ed7f0b6-81aa-11e3-be93-1f089cbfe8c1
+SHA1 31ef6ccbe4b0087f28e3d1e5df0158ca5f46c9c3 t/data/2ed89e6c-81aa-11e3-9177-4f10788cc367
+SHA1 292dedfabb969d46b910bcb6631db4eeb529bdd7 t/data/2ed93796-81aa-11e3-a1ee-b73d681115f1
+SHA1 010bdc950469579c2255c6e30e31e2adc22eb71b t/data/54d45cac-8202-11e3-891c-6bd7f2ae8c0d
+SHA1 037a799c6f3b66bbb59d76d21bf969c3b163665f t/data/565840b6-8202-11e3-8999-433a122325c3
+SHA1 4183fd8489f3241642cb27ff9e3d2b3780746cbc t/data/639caf5a-8202-11e3-8681-830d64f8a3cc
+SHA1 c7d8b8c692e7fa65e68f164b4143aa2d618c482f t/data/64a683d0-8202-11e3-a4d8-0b546d2cbfdb
+SHA1 de844c8adddf4b04389778c29a1b77f6da2c1305 t/data/64ee201e-8202-11e3-8e59-f7fcc695be67
+SHA1 51cb571e7aa0833bc63dff936fb7ab7f01ed284c t/data/6c64de9e-81aa-11e3-988d-3704e28abc13
+SHA1 05eabf6c7b86a4c132e38bef090a874cf7b9e2c8 t/data/6c658510-81aa-11e3-aeae-17a5794f6fef
+SHA1 b64095fcdc9c8b51757d256f2b967052f54809d8 t/data/6c661c78-81aa-11e3-b6b2-e78df78901c4
+SHA1 141f1df1d98d7ce096ed485eafd16f0a35001b1b t/data/6c66e716-81aa-11e3-bee3-d7b1b4533435
+SHA1 ab22dc8fa9e9287f18de5ca304d4b40946afde1b t/data/6c678360-81aa-11e3-a2e6-bb317225f254
+SHA1 af301ef870359db4afaa361a9e08923dd6ffd979 t/data/6c68250e-81aa-11e3-8cb1-5f7cc1bac1f7
+SHA1 24c9758653864761f957e5a8d53ca61ca9d19ef8 t/data/6c68bdf2-81aa-11e3-b553-7f04812f0fea
+SHA1 7565264b5854bd6553ffaed1e75005d63d35567d t/data/6c6982a0-81aa-11e3-a60f-1757c1952d7e
+SHA1 5fdf0dc141ce95e6e70b349b72c473c7a578e690 t/data/6c6a4b0e-81aa-11e3-8b21-2b8a5013595f
+SHA1 da1158280741ba3cfafd2cbddfb838acc2617ed4 t/data/6c6b18b8-81aa-11e3-b40d-5b91a7abbb95
+SHA1 e7fb3d99f9e43038cf8ea40bee9ea3827430df65 t/data/6c6bd55a-81aa-11e3-9fe3-e7aa6f44dc84
+SHA1 a751ee852c9b743956f5662bfc1b0a5f0af3e823 t/data/6c6c6cea-81aa-11e3-9a46-6b9651cf27cc
+SHA1 31ef6ccbe4b0087f28e3d1e5df0158ca5f46c9c3 t/data/85d6f752-820b-11e3-a0ee-97ec3559e503
+SHA1 31ef6ccbe4b0087f28e3d1e5df0158ca5f46c9c3 t/data/87704e9c-820b-11e3-a8a9-dbf1d9f4d23d
+SHA1 31ef6ccbe4b0087f28e3d1e5df0158ca5f46c9c3 t/data/88a4644c-820b-11e3-9201-47b7f2805c2d
+SHA1 e7fb3d99f9e43038cf8ea40bee9ea3827430df65 t/data/8f2d3f64-820b-11e3-bcb2-7398dd062d0a
+SHA1 e7fb3d99f9e43038cf8ea40bee9ea3827430df65 t/data/903a43c0-820b-11e3-8c1b-f3d807f804b2
+SHA1 e7fb3d99f9e43038cf8ea40bee9ea3827430df65 t/data/912b1cbe-820b-11e3-bbe1-cff35a0c6e44
+SHA1 31ef6ccbe4b0087f28e3d1e5df0158ca5f46c9c3 t/data/997c32cc-820b-11e3-a7f3-1702fb792e8a
+SHA1 639211d94cc81ea9dac9dbf8b3cb4e95884e314b t/data/a167d37e-820b-11e3-85e3-eb50a8257113
+SHA1 7565264b5854bd6553ffaed1e75005d63d35567d t/data/a8b91d0e-820b-11e3-88f4-5ba97dad89bc
+SHA1 7565264b5854bd6553ffaed1e75005d63d35567d t/data/a9c3b1b4-820b-11e3-b0f9-cb4cb0ffab77
+SHA1 7565264b5854bd6553ffaed1e75005d63d35567d t/data/aa6db722-820b-11e3-8e0a-6b1e7ddfde97
+SHA1 03acf209eedd799c2bb184948f60c11bddc60d78 t/data/b370fca4-81ab-11e3-bd3a-0bbd83918470
+SHA1 c9eace8e8196c3692b7c4204be5e010da698b7e3 t/data/b6cbc80c-81ab-11e3-8e54-23dfd2861554
+SHA1 02132f66974e7463db19593cc249ed4dceb62956 t/data/c142d2a4-81aa-11e3-9679-fbe216f4b254
+SHA1 4863e6abbc683b2c85fa1bb9d86707d93d8171ea t/data/c4297054-81aa-11e3-86ba-e729ff8077d6
+SHA1 0f7c62799ffe2062b1ffd3318fd23ad96a1cf128 t/data/c606c5b6-81aa-11e3-bfbb-7fe7ceb7323c
+SHA1 677188ae9f476c5759f37553f6a7e86a2c42207a t/data/c6594534-81aa-11e3-9a12-4340ddd5bf65
+SHA1 c63c1ae3378733cc5782feb2e804fcf6c8abd47e t/data/c93bc1aa-81aa-11e3-b280-634ee0f200e5
+SHA1 83207cc9b873f234cddd632d59a1bf1656ce8b51 t/data/cbc80802-81aa-11e3-8d5c-bb45ab5b21fd
+SHA1 9c429addb01f8d9892a4bbcd6608975478f52894 t/data/ce9ed498-81aa-11e3-97eb-83bad78d567a
+SHA1 b069683f99ef35e104240956387ed001db14c2aa t/data/ceeb4d64-81aa-11e3-8b26-5b4763e53ba4
+SHA1 0f14dcde65568dd4f8f69af011ef4635ea123ed7 t/data/e662e0de-81a9-11e3-8109-f7b5ea1f0d6b
+SHA1 fbcd019ac53bb925fdb43e1281a5e87d6e2d0f62 t/data/e8932454-81a9-11e3-944e-937cbed9413a
+SHA1 06a5303a256f6d372d1971e493892f1c369047e4 t/data/e8c63a24-81a9-11e3-8d58-c7a82fb5f995
+SHA1 639211d94cc81ea9dac9dbf8b3cb4e95884e314b t/data/e8faff16-81a9-11e3-b1a6-9b63618484e8
+SHA1 8d64ad5a66418232f86e93390dbfe10a45727a79 t/data/e92b5562-81a9-11e3-954d-d7b43172febf
+SHA1 397bb3951f42693ed941880752a21d877cf5cb47 t/data/e9656dc4-81a9-11e3-8a3d-1b9c5b86d678
+SHA1 26029a73559107b658c3b9769dd1271f107a3e1d t/solutions/004_scanfs.pl
+SHA1 26029a73559107b658c3b9769dd1271f107a3e1d t/solutions/005_prune.pl
+SHA1 bdca3623c52c62b8034967d4dd35d45a80816827 t/solutions/006_weed.pl
+SHA1 eb16bf6d6144745fbfbe1eaec6dfe7aae9d8c15f t/solutions/007_digest.pl
+SHA1 e8c093348fe361424a6157bafc5ad44802ed3e7d t/solutions/008_output_robot.txt
+SHA1 7f74dc2080f853381462686325938263b95c071e t/solutions/009_output_human.txt
+SHA1 5bd500053b03b9a17b570fb39ca2e5ee959540dc xt/author/critic.t
+SHA1 0bb1a19751dc0d77b15bd9bcf9b24d4c81b5ab74 xt/author/pod-spell.t
+SHA1 199b3d456352d36185a3f28aaf40efb0475dacab xt/release/cpan-changes.t
+SHA1 cbc5b72710fb645c559b78c8ac8b879f62aff326 xt/release/dist-manifest.t
+SHA1 c591e1c2af60bc91cc86013f7dea9b6703eace1c xt/release/dist-portable.t
+SHA1 a90bf5754e9e6248bd691a819173efd9b0fdd86a xt/release/distmeta.t
+SHA1 4dfccbc7b2c2d7e612cb2405be5c9f462d471906 xt/release/kwalitee.t
+SHA1 7b52b909acf6cd52733f8f226f92147ed76a2717 xt/release/meta-json.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 b5c18ac87027b1af5be8ab32ccc75cf5ca3d9466 xt/release/no-tabs.t
+SHA1 4c599e8a4ebb7a899f90ee3c235a64fdbc7e2c06 xt/release/pod-coverage.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBAgAGBQJS3au4AAoJEGe9xj410/4dAUYP/1KtEb3jkh0MZzEvXWHZ+1BV
+9p/xO1l6stAjIaTsXcFu/LqZ9q4nY/9aoT7xXuXjpDN1E/CrjOkuoJuHOQ3I2BV6
+0ch6cfVir2b53wypdlzPfHH1GWfY43jozspRBAjTLTq6jYc4TcYfarzd/QKQ1CB0
+NofCKgPKz2eQ86HO5/qwXkLLyKxaxLlCrWYsG9Ew6gR1P8E0ydTOeh0zQ88LLMs/
+dg5GTp3HKYorpN3GiH2LXSJkpSFZBOz9YtRJBnKQzEkqCu4Qe9SWV43KEWmvtOkT
+3y8/6dvceb6h2hT76ZGbFH1IbUfU06Ibsiu7uc/4ka+CMDBSmQAKASjv/vlGCzot
+PFwr6zAFHwy4H1Uvyw0EH71gBafhuJRtbR+MjnrTFie46bVE9E0AlnDcefMx18MR
+pqp5WPKfpJqkGL+tek0Q9RzMAcl4iATwEyOf93AI1iMMfMOE52ztwu7l1BqNANJ+
+BSOTm0zEN+ggRwMtz0whhuc9zKKDIDb/bF5P6WAZtFFrJx/RuULe8SHWpQZWzfbz
+AwOdOrFmH52ZyFuDChplFSPayYq4/OGY82TbIZty3D7mlC+Hd/H29hdIFnKzBmhX
+58Q7ULPduMQgwhXT4e2LMVKkf+uawxXws0jo3K4DgU8MqTQFCB/TSCc4hksHQCBW
+AKzyJFCK8n5DIebFZNgK
+=wljV
+-----END PGP SIGNATURE-----
