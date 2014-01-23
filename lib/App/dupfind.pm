@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind;
 {
-  $App::dupfind::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -32,7 +32,7 @@ App::dupfind - A Composed class that provides core functionality to the app
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

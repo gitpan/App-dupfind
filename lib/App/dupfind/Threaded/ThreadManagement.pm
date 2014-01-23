@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Threaded::ThreadManagement;
 {
-  $App::dupfind::Threaded::ThreadManagement::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Threaded::ThreadManagement::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -180,7 +180,7 @@ App::dupfind::Threaded::ThreadManagement - Thread management logic, abstracted s
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

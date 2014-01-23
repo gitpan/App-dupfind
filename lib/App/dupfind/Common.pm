@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Common;
 {
-  $App::dupfind::Common::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Common::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -326,7 +326,7 @@ App::dupfind::Common - Public methods for the App::dupfind deduplication engine
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

@@ -21,7 +21,7 @@ dupfind - Detect and optionally remove duplicate files
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

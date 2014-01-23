@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Threaded::MapReduce::Weed;
 {
-  $App::dupfind::Threaded::MapReduce::Weed::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Threaded::MapReduce::Weed::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -118,7 +118,7 @@ App::dupfind::Threaded::MapReduce::Weed - Map-reduce version of weed_dups, and t
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

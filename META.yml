@@ -39,37 +39,37 @@ name: App-dupfind
 provides:
   App::dupfind:
     file: lib/App/dupfind.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::App:
     file: lib/App/dupfind/App.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Common:
     file: lib/App/dupfind/Common.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Guts:
     file: lib/App/dupfind/Guts.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Guts::Algorithms:
     file: lib/App/dupfind/Guts/Algorithms.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded:
     file: lib/App/dupfind/Threaded.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded::MapReduce:
     file: lib/App/dupfind/Threaded/MapReduce.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded::MapReduce::Digest:
     file: lib/App/dupfind/Threaded/MapReduce/Digest.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded::MapReduce::Weed:
     file: lib/App/dupfind/Threaded/MapReduce/Weed.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded::Overrides:
     file: lib/App/dupfind/Threaded/Overrides.pm
-    version: 0.140200
+    version: 0.140230
   App::dupfind::Threaded::ThreadManagement:
     file: lib/App/dupfind/Threaded/ThreadManagement.pm
-    version: 0.140200
+    version: 0.140230
 requires:
   Benchmark: 0
   Digest::xxHash: 0
@@ -92,7 +92,7 @@ resources:
   bugtracker: https://rt.cpan.org/Dist/Display.html?Name=App%3A%3Adupfind
   homepage: https://github.com/tommybutler/App-dupfind/wiki
   repository: git://github.com/tommybutler/app-dupfind.git
-version: 0.140200
+version: 0.140230
 x_Dist_Zilla:
   perl:
     version: 5.018001
@@ -204,41 +204,13 @@ x_Dist_Zilla:
       name: ReportVersions::Tiny
       version: 1.10
     -
-      class: Dist::Zilla::Plugin::MetaTests
-      name: '@TestingMania/MetaTests'
-      version: 5.006
-    -
-      class: Dist::Zilla::Plugin::Test::UnusedVars
-      name: '@TestingMania/Test::UnusedVars'
-      version: 2.000005
-    -
-      class: Dist::Zilla::Plugin::PodCoverageTests
-      name: '@TestingMania/PodCoverageTests'
-      version: 5.006
-    -
-      class: Dist::Zilla::Plugin::PodSyntaxTests
-      name: '@TestingMania/PodSyntaxTests'
-      version: 5.006
-    -
-      class: Dist::Zilla::Plugin::Test::Kwalitee
-      name: '@TestingMania/Test::Kwalitee'
-      version: 2.07
-    -
-      class: Dist::Zilla::Plugin::MojibakeTests
-      name: '@TestingMania/MojibakeTests'
-      version: 0.5
-    -
-      class: Dist::Zilla::Plugin::Test::DistManifest
-      name: '@TestingMania/Test::DistManifest'
-      version: 2.000004
-    -
-      class: Dist::Zilla::Plugin::Test::Synopsis
-      name: '@TestingMania/Test::Synopsis'
-      version: 2.000004
-    -
       class: Dist::Zilla::Plugin::Test::CPAN::Meta::JSON
       name: '@TestingMania/Test::CPAN::Meta::JSON'
       version: 0.003
+    -
+      class: Dist::Zilla::Plugin::MetaTests
+      name: '@TestingMania/MetaTests'
+      version: 5.006
     -
       class: Dist::Zilla::Plugin::Test::Compile
       config:
@@ -251,18 +223,6 @@ x_Dist_Zilla:
       name: '@TestingMania/Test::Compile'
       version: 2.039
     -
-      class: Dist::Zilla::Plugin::Test::CPAN::Changes
-      name: '@TestingMania/Test::CPAN::Changes'
-      version: 0.008
-    -
-      class: Dist::Zilla::Plugin::Test::Perl::Critic
-      name: '@TestingMania/Test::Perl::Critic'
-      version: 2.112410
-    -
-      class: Dist::Zilla::Plugin::Test::Version
-      name: '@TestingMania/Test::Version'
-      version: 0.002004
-    -
       class: Dist::Zilla::Plugin::NoTabsTests
       config:
         Dist::Zilla::Plugin::Test::NoTabs:
@@ -272,6 +232,46 @@ x_Dist_Zilla:
             - ':ExecFiles'
       name: '@TestingMania/NoTabsTests'
       version: 0.06
+    -
+      class: Dist::Zilla::Plugin::MojibakeTests
+      name: '@TestingMania/MojibakeTests'
+      version: 0.5
+    -
+      class: Dist::Zilla::Plugin::Test::Synopsis
+      name: '@TestingMania/Test::Synopsis'
+      version: 2.000004
+    -
+      class: Dist::Zilla::Plugin::PodCoverageTests
+      name: '@TestingMania/PodCoverageTests'
+      version: 5.006
+    -
+      class: Dist::Zilla::Plugin::Test::Kwalitee
+      name: '@TestingMania/Test::Kwalitee'
+      version: 2.07
+    -
+      class: Dist::Zilla::Plugin::Test::Perl::Critic
+      name: '@TestingMania/Test::Perl::Critic'
+      version: 2.112410
+    -
+      class: Dist::Zilla::Plugin::PodSyntaxTests
+      name: '@TestingMania/PodSyntaxTests'
+      version: 5.006
+    -
+      class: Dist::Zilla::Plugin::Test::DistManifest
+      name: '@TestingMania/Test::DistManifest'
+      version: 2.000004
+    -
+      class: Dist::Zilla::Plugin::Test::UnusedVars
+      name: '@TestingMania/Test::UnusedVars'
+      version: 2.000005
+    -
+      class: Dist::Zilla::Plugin::Test::CPAN::Changes
+      name: '@TestingMania/Test::CPAN::Changes'
+      version: 0.008
+    -
+      class: Dist::Zilla::Plugin::Test::Version
+      name: '@TestingMania/Test::Version'
+      version: 0.002004
     -
       class: Dist::Zilla::Plugin::Test::PodSpelling
       name: Test::PodSpelling

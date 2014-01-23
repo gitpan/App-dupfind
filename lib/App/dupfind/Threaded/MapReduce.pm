@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Threaded::MapReduce;
 {
-  $App::dupfind::Threaded::MapReduce::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Threaded::MapReduce::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -91,7 +91,7 @@ App::dupfind::Threaded::MapReduce - Basic, abstracted implementation of map-redu
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

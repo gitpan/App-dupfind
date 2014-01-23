@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Guts::Algorithms;
 {
-  $App::dupfind::Guts::Algorithms::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Guts::Algorithms::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -174,7 +174,7 @@ App::dupfind::Guts::Algorithms - The private weeding algorithms available for us
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

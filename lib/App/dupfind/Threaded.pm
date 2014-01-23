@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Threaded;
 {
-  $App::dupfind::Threaded::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Threaded::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -36,7 +36,7 @@ App::dupfind::Threaded - Composed class providing seamless threading support for
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

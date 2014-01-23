@@ -5,10 +5,10 @@ use warnings;
 
 package App::dupfind::App;
 {
-  $App::dupfind::App::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::App::VERSION = '0.140230'; # TRIAL
 }
 
-BEGIN { STDERR->autoflush; STDOUT->autoflush; }
+BEGIN { select STDERR; $|++; select STDOUT; $|++; }
 
 use 5.010;
 
@@ -351,7 +351,7 @@ App::dupfind::App - This is the application that gets run() by $bin/dupfind
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

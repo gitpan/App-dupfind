@@ -9,7 +9,7 @@ use warnings;
 
 package App::dupfind::Threaded::Overrides;
 {
-  $App::dupfind::Threaded::Overrides::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Threaded::Overrides::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -76,7 +76,7 @@ App::dupfind::Threaded::Overrides - Methods and attributes that have to be overr
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

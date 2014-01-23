@@ -15,32 +15,32 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 76a08172c2a635f36337c548aa80600ef0346159 AUTHORS
-SHA1 296d68425e675d2d4e975910dbe6d0b885f3e5df Build.PL
+SHA1 2b21c2e1a87eacf150b6afe73cc5ad5dbc57852c Build.PL
 SHA1 bb2492d6fbfa8b7d456f2b8986db4533908dc097 COPYING
-SHA1 f4cccbe2480491f614344e15dcf1f7fbe2f884fb Changes
+SHA1 384ddc438a986624c547916a601d46f0bc4d0a7c Changes
 SHA1 edc537b9eb26d8405a3d437f2ffd8ed2a0610b15 INSTALL
 SHA1 b58bed2bf9814e2a360fd6615d1b3c21210d6269 LICENSE
 SHA1 c275000ee51550563695afc3668fb1c6fc3f51c0 MANIFEST
 SHA1 e1ede676e2dc77273c1afbfaee429a1cb4eadcab MANIFEST.SKIP
-SHA1 4d2c2f51e52da67d8fe694472b7318a7613d12c1 META.json
-SHA1 fefccf983469571bb0338c3f627c0f1e8008af0a META.yml
-SHA1 5dd5b0bfaf2a6bb3a29ab58a91e7ed87bae8ef3b Makefile.PL
+SHA1 088cfb113789af52dcf51e26d078c70862d868ae META.json
+SHA1 97ff6f014845d46d7930ca2c8910c5ce3ad70f1e META.yml
+SHA1 adf29759afc0dc6d1f3dc862f50bfe44174a0dfc Makefile.PL
 SHA1 2309af8ab49c96a0b4f1136d0b27bf88f5250426 NEWS
 SHA1 f05f74615cc9d48c5f71693bbad1926a4a8266a2 README
 SHA1 757f351a075c3fd60cd309868aeb30f7f9419ea2 TODO
-SHA1 a0dd2a639ae5ba91df9710a91046ab4bac48585a bin/dupfind
+SHA1 4dfbf8be5986158cb49e8e62067937bc5a26c7fc bin/dupfind
 SHA1 3b5058650b93b5c6f824ef5d22eb8b57a1765ea5 dist.ini
-SHA1 68f13969a922e76e6f2aaa86d01141f4ccdf6251 lib/App/dupfind.pm
-SHA1 9dc57efaa2740484414d846369cc83ec86ceb645 lib/App/dupfind/App.pm
-SHA1 83d557c2912e20280a9ee61185013b1435e3920a lib/App/dupfind/Common.pm
-SHA1 aba458ff6450c5255d4b74f75b5dfdd83a29a7a0 lib/App/dupfind/Guts.pm
-SHA1 8e2aeff64020ec583b40fdbb211eab43f972fece lib/App/dupfind/Guts/Algorithms.pm
-SHA1 5ac5bfa4b0349cdc6ab3397c3f934ba45bbe6859 lib/App/dupfind/Threaded.pm
-SHA1 4822a6094e5737dfea414298b69003ddc120a0ef lib/App/dupfind/Threaded/MapReduce.pm
-SHA1 6928e3ae07b3e0a5b9eedbc5bd28e7afe3dbcbfe lib/App/dupfind/Threaded/MapReduce/Digest.pm
-SHA1 e47360943d317c96f872c5592635f339c2167810 lib/App/dupfind/Threaded/MapReduce/Weed.pm
-SHA1 dbcaa5121c36027e411a3d17b205af1a7d4ac6e3 lib/App/dupfind/Threaded/Overrides.pm
-SHA1 9cfe40d67f4e9554b22bffbdf90a5ec6ee48e045 lib/App/dupfind/Threaded/ThreadManagement.pm
+SHA1 da91d75ffcec80b0e2166a04402fac8151cda3d5 lib/App/dupfind.pm
+SHA1 51d34bc71de4dd87a4931b591689cce6be21782e lib/App/dupfind/App.pm
+SHA1 c8c0e07939ba480ba5ddbd36c6b6692b3b127f18 lib/App/dupfind/Common.pm
+SHA1 d101bc9fccae97856c81199017d1f3b565131940 lib/App/dupfind/Guts.pm
+SHA1 916ab1821a2955b0dee35eb5787ee858d919cc80 lib/App/dupfind/Guts/Algorithms.pm
+SHA1 cb918bf500a59d3a835132b337bea2f0c0525304 lib/App/dupfind/Threaded.pm
+SHA1 7ed604a4c54bfe2012facc6c7ba7f7c683122828 lib/App/dupfind/Threaded/MapReduce.pm
+SHA1 59319143ab0d1a55a36f5fd86c26f5be028366be lib/App/dupfind/Threaded/MapReduce/Digest.pm
+SHA1 f1365a0ec9424c9003e282d66e30ca702cc80b9d lib/App/dupfind/Threaded/MapReduce/Weed.pm
+SHA1 fdca2d87dd61036e9f0a0ef340c8869f8a7192a8 lib/App/dupfind/Threaded/Overrides.pm
+SHA1 bcc6267d72b242cb0b19c703713b5c5a1700c911 lib/App/dupfind/Threaded/ThreadManagement.pm
 SHA1 e028b5e88c4c0930e254540747704960189b863d t/00-compile.t
 SHA1 b31abae4061cd1021baa7b698a40ce0b9290bf32 t/000-report-versions-tiny.t
 SHA1 c5bcaff25026b2af9aa7214a803d934df6be021e t/001_canuseit.t
@@ -115,7 +115,7 @@ SHA1 eb16bf6d6144745fbfbe1eaec6dfe7aae9d8c15f t/solutions/007_digest.pl
 SHA1 e8c093348fe361424a6157bafc5ad44802ed3e7d t/solutions/008_output_robot.txt
 SHA1 7f74dc2080f853381462686325938263b95c071e t/solutions/009_output_human.txt
 SHA1 5bd500053b03b9a17b570fb39ca2e5ee959540dc xt/author/critic.t
-SHA1 0bb1a19751dc0d77b15bd9bcf9b24d4c81b5ab74 xt/author/pod-spell.t
+SHA1 c54ea8fcae6675071f2a12a7c07527fc2a00d4ec xt/author/pod-spell.t
 SHA1 199b3d456352d36185a3f28aaf40efb0475dacab xt/release/cpan-changes.t
 SHA1 cbc5b72710fb645c559b78c8ac8b879f62aff326 xt/release/dist-manifest.t
 SHA1 c591e1c2af60bc91cc86013f7dea9b6703eace1c xt/release/dist-portable.t
@@ -132,17 +132,17 @@ SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQIcBAEBAgAGBQJS3au4AAoJEGe9xj410/4dAUYP/1KtEb3jkh0MZzEvXWHZ+1BV
-9p/xO1l6stAjIaTsXcFu/LqZ9q4nY/9aoT7xXuXjpDN1E/CrjOkuoJuHOQ3I2BV6
-0ch6cfVir2b53wypdlzPfHH1GWfY43jozspRBAjTLTq6jYc4TcYfarzd/QKQ1CB0
-NofCKgPKz2eQ86HO5/qwXkLLyKxaxLlCrWYsG9Ew6gR1P8E0ydTOeh0zQ88LLMs/
-dg5GTp3HKYorpN3GiH2LXSJkpSFZBOz9YtRJBnKQzEkqCu4Qe9SWV43KEWmvtOkT
-3y8/6dvceb6h2hT76ZGbFH1IbUfU06Ibsiu7uc/4ka+CMDBSmQAKASjv/vlGCzot
-PFwr6zAFHwy4H1Uvyw0EH71gBafhuJRtbR+MjnrTFie46bVE9E0AlnDcefMx18MR
-pqp5WPKfpJqkGL+tek0Q9RzMAcl4iATwEyOf93AI1iMMfMOE52ztwu7l1BqNANJ+
-BSOTm0zEN+ggRwMtz0whhuc9zKKDIDb/bF5P6WAZtFFrJx/RuULe8SHWpQZWzfbz
-AwOdOrFmH52ZyFuDChplFSPayYq4/OGY82TbIZty3D7mlC+Hd/H29hdIFnKzBmhX
-58Q7ULPduMQgwhXT4e2LMVKkf+uawxXws0jo3K4DgU8MqTQFCB/TSCc4hksHQCBW
-AKzyJFCK8n5DIebFZNgK
-=wljV
+iQIcBAEBAgAGBQJS4F7xAAoJEGe9xj410/4dLgcQALqf1w0C0QuLfmFF8IVRZB2y
+FcOCWrpXVYzETv7AdCzkiaG0kZtGPcUDJ/tkrvT0NH0fhL0vMLK3Wz2o0JQuXgFi
+cyk7s6QHwhWL3Mlp3CTmE72RO3hoSLMjaI1MMHbost9pFzzAMffjXOzU1d9vKtqS
+8oDtNesC2CfMFsUw1KftGYMz3nALsbG5IqXS72xPYVBqMz+x5xrvoJXbu6X295wO
+j2M3e17OuGXyDEOfEl7VAANT5RHwDIOCrdrhfh4JLcIMNGC4mZ/WBZGltv7xA8nQ
+ETyMDqSDcice23R9rorXTMlhYzFSDFH3ptmRlSImgCAdoLhwKherFKON9NeY8gNn
+MTtlasShouAgqBgaSK/RzQ70BF97NZMn/lxguGRJeI4hjPSYigRafpG0D+wXCjjE
+y2RRzEkAxZ4duRJWImJ7LAzApcvjH7/q9hhKk/BgYV1DxYo+VCxXPiu1WA/Y5ZYC
+p3EwZ/nuBVZ49u9FVmnlnqPTfKoPr695/T6GR6Plgk782p9dzNdpy+K7w5I6Lcz6
+n5DEPQd0oc1SEA00vOnz6axwMdJZ2uZUUwNlzNy4UEZ0d3dFphuTXorrSu3GU0pC
+ia2uTkLXKcN9aOav+gJ34+WvHu7LZvLobZ9cpSvpo7rK998EQb5cnmXqHt63MglO
+YJ8L1LQcLD1XlEHsiiDX
+=5TgJ
 -----END PGP SIGNATURE-----

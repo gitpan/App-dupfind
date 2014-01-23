@@ -5,7 +5,7 @@ use warnings;
 
 package App::dupfind::Guts;
 {
-  $App::dupfind::Guts::VERSION = '0.140200'; # TRIAL
+  $App::dupfind::Guts::VERSION = '0.140230'; # TRIAL
 }
 
 use 5.010;
@@ -178,7 +178,7 @@ App::dupfind::Guts - Private methods supporting the App::dupfind::Common public 
 
 =head1 VERSION
 
-version 0.140200
+version 0.140230
 
 =head1 DESCRIPTION
 

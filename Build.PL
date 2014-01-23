@@ -18,7 +18,7 @@ my %module_build_args = (
     "Tommy Butler <devnull\@internetalias.net>"
   ],
   "dist_name" => "App-dupfind",
-  "dist_version" => "0.140200",
+  "dist_version" => "0.140230",
   "license" => "perl",
   "module_name" => "App::dupfind",
   "recommends" => {},
